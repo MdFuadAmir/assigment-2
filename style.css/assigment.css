@@ -289,7 +289,36 @@ body{
     width: 100%;
     height: 100%;
 }
-
+/* all btn section */
+.btn-container{
+    text-align: center;
+    margin: 100px 0px;
+}
+.all-btn-class{
+    margin-top: 30px;
+}
+.all-btn-class > button{
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 20px;
+    color: #0B0223;
+}
+.all-btn-class > button > img{
+    height: 35px;
+    margin-right:20px;
+    align-items: center;
+    justify-content: center;
+}
+.all-btn-class > button:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2;
+}
+/* footer section start */
 
 
 
