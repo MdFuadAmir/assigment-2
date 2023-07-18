@@ -250,6 +250,7 @@ body{
 }
 /* Careers-container style hear */
 .Careers-container{
+    margin-top: 100px;
     height: 80vh;
     background-color: #F948B2;
     display: flex;
@@ -320,22 +321,49 @@ body{
 }
 /* footer section start */
 
-
-
-
-
-@media screen and (max-width:576px){
-    .nav-container{
-    flex-direction: column;
+footer{
+    padding: 50px;
+    background: #0B0223;
     text-align: center;
-    }
-    .nav-prymary-btns{
-        margin-top: 1.125rem;
-    }
-    .nav-follow-btn{
-        margin-top: 1.125rem;
-    }
-   .banner-container{
-    flex-direction: column-reverse;
-   }
+    align-items: center;
+    height: 60vh;
+    color: #fff;
+}
+.footer-lists{
+    align-items: center;
+}
+.footer-lists{
+    margin-left: 120px;
+}
+ul,li,a{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.link-btns > button{
+    margin-right: 20px;
+    background-color: #0B0223;
+    border: none;
+}
+.link-btns > button > img{
+    margin-top: 30px;
+    width: 30px;
+}
+.pryvacy{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.pryvacy,ul,li{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+.footer-p{
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 30px;
 }
