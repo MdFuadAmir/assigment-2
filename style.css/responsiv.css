@@ -1,0 +1,12 @@
+@media screen and (max-width:576px){
+    .nav-container{
+    flex-direction: column;
+    text-align: center;
+    }
+    .nav-prymary-btns{
+        margin-top: 1.125rem;
+    }
+    .nav-follow-btn{
+        margin-top: 1.125rem;
+    }
+}
