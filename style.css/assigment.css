@@ -7,13 +7,22 @@ body{
 .prymary-color{
     color: #FF42A5;
 }
+.prymary-btn{
+    background-color: #F948B2;
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 20px 40px;
+    font-weight: 600;
+    border: none;
+    border-radius: 48px;
+}
 /* navigation style hear */
 .nav-container{
     display: flex;
     background-color: #fff;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 200px ;
+    padding: 0px 100px ;
 }
 .nav-logo-container{
     display: flex;
@@ -51,4 +60,87 @@ body{
     margin-left: 5px;
     width: 1.3rem;
     height: 1.25rem;
+}
+/* section-1 style hear */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+.left-banner{
+    width: 50%;
+    align-items: center;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.left-banner-text{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.banner-play-titel{
+    color: #0B0223;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-goat-titel{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    color: #534C64;
+}
+.right-banner{
+    height: 90vh;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+.go-rogue-btn{
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1.125rem;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    .nav-container{
+    flex-direction: column;
+    text-align: center;
+    }
+    .nav-prymary-btns{
+        margin-top: 1.125rem;
+    }
+    .nav-follow-btn{
+        margin-top: 1.125rem;
+    }
+   .banner-container{
+    flex-direction: column-reverse;
+   }
 }
