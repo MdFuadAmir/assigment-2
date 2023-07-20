@@ -15,15 +15,26 @@
         flex-direction: column-reverse;
     }
     .left-banner{
-        margin: 20px;
         width: 100%;
     }
     .left-banner-text{
-        margin: 20px;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-btns{
+        align-items: center;
+        display: flex;
+        text-align: center;
+        
+        margin-right: 50px;
     }
     .right-banner{
         margin: 30px;
     }
+
+
+    /* ghfghfkuhghu */
     .we-are-gamer{
         flex-direction: column;
     }
@@ -89,9 +100,9 @@
         font-weight: 400;
         margin-right: 30px;
     }
-     
-
 }
+
+
 
 
 @media screen and (min-width:576px) and (max-width:992px){
