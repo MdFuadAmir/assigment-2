@@ -206,7 +206,10 @@ body{
     font-size: 15px;
     color: #534C64;
     font-weight: 500;
-
+}
+.hover-img:hover{
+    border: 5px solid #F948B2;
+    border-radius: 16px;
 }
 /* section 4 start */
 .section-4-container{
