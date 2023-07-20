@@ -70,16 +70,22 @@
         margin-top: -3.7rem;
         margin-left: -3.1rem;   
     }
-    
+    .Careers-container{
+        display: grid;
+        flex-direction: column;
+        margin: 20px;
+    }
     .careers-text{
         text-align: left;
         margin: 10px;
-        width: 80%;
+    }
+    .see-all{
+        padding: 10px 20px;
     }
     .all-btn-class{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        
+
     }
     .link-btns,button,img{
         display: grid;
@@ -200,6 +206,4 @@
         grid-template-columns: repeat(2, 1fr);
 
     } */
-    
-
 }
