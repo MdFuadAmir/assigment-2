@@ -78,34 +78,39 @@
     .careers-text{
         text-align: left;
         margin: 10px;
+        width: 100%;
     }
     .see-all{
         padding: 10px 20px;
     }
+    .footer-container{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
     .all-btn-class{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-
+        margin: 10px;
+    }
+    .footer-lists,ul,li,a{
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr);
     }
     .link-btns,button,img{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        margin-left: 50px;
     }
-    .footer-lists,ul,li,a{
+    .pryvacy,.ato{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 50px;
     }
-    
-    .pryvacy{
-        margin-left: 150px;
-        margin-top: 40px;
-    }
-    .pryvacy,ul,li{
-        color: rgba(255, 255, 255, 0.60);
-        font-size: 15px;
-        font-weight: 400;
-        margin-right: 30px;
+    .ato,li{
+        margin-top: 20px;
     }
 }
 
