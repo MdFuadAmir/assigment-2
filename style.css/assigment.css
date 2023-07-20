@@ -126,15 +126,15 @@ body{
     display: flex;
 }
 .left-gamer{
-    margin: 40px 10px 40px 100px ;
+    padding: 20px;
 }
 .left-gamer > img{
-    height: 300px;
-    margin: 20px 10px;
+    width: 600px;
+    align-items: center;
 }
 .right-gamer{
     align-items: center;
-    margin: 50px 100px 30px 20px;
+    margin: 50px 100px 30px 50px;
     text-align: end;
 }
 .gamer-titel{
